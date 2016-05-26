@@ -32,7 +32,7 @@ var app = angular.module('app', ['firebase']);
             $scope.name = name;
             $scope.chatMessage = "";
 
-            var ref = new Firebase("https://test-chat-nthanh.firebaseio.com/");
+            var ref = new Firebase("https://amber-torch-2590.firebaseio.com/");
             var sync = $firebase(ref);
             $scope.chatMessages = sync.$asArray();
 			
